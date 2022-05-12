@@ -1,0 +1,70 @@
+/** 新品 **/
+
+.a-new .b {
+    width: 750px;
+    height: auto;
+    overflow: hidden;
+    padding: 0 31px 45px 31px;
+  }
+  
+  .a-new .b .item {
+    float: left;
+    width: 302px;
+    margin-top: 10px;
+    margin-left: 21px;
+    margin-right: 21px;
+  }
+  
+  .a-new .b .item-b {
+    margin-left: 42px;
+  }
+  
+  .a-new .b .img {
+    width: 302px;
+    height: 302px;
+    background-size: cover;
+  }
+  
+  .a-new .b .name {
+    text-align: center;
+    display: block;
+    width: 302px;
+    height: 38px;
+    margin-bottom: 14px;
+    overflow: hidden;
+    font-size: 30px;
+    color: #333;
+  }
+  
+  .a-new .b .price {
+    display: block;
+    text-align: center;
+    line-height: 30px;
+    font-size: 30px;
+    color: #ab956d;
+  }
+  .a-section {
+    width: 750px;
+    height: auto;
+    overflow: hidden;
+    background: #fff;
+    color: #333;
+    margin-top: 20px;
+  }
+  
+  .a-section .h {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: center;
+    height: 130px;
+  }
+  
+  .a-section .h .txt {
+    padding-right: 30px;
+    background-size: 16.656px 27px;
+    display: inline-block;
+    height: 36px;
+    font-size: 33px;
+    line-height: 36px;
+  }

@@ -1,5 +1,3 @@
-import React, { useEffect, FC } from "react";
-
 // Taro 额外添加的 hooks 要从 '@tarojs/taro' 中引入
 import { useDidShow, useDidHide } from "@tarojs/taro";
 
@@ -10,10 +8,10 @@ import configStore from "./store";
 import "taro-ui/dist/style/index.scss";
 import { AtButton } from "taro-ui";
 
-//const store = configStore();
+const store = configStore();
 
-const App: FC = ({ children }) => {
-  return <>{children}</>;
+const App = ({ children }) => {
+  return <Provider store={store}>{children}</Provider>;
 };
 
 export default App;
